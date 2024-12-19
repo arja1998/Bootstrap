@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Bootstrap Project</title>
+
+  <!--bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--custom css-->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!--Font awesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!--navbar part starts-->
+  <main>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><a href=""><img src="./images/pet_logo-removebg-preview.png" alt=""></a>
+            <p class="fst-italic text-white fs-5">Paws <br>Veterinary clinic</p>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  me-auto mb-2 mb-lg-0 justify-content-center">
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Clinic</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Full Grooming</a></li>
+                    <li><a class="dropdown-item" href="#">Bathing</a></li>
+                    <li><a class="dropdown-item" href="#">Training</a></li>
+
+                  </ul>
+                </li>
+               </ul>
+              <form class="d-flex align-items-center">
+                <input class="form-control me-4" type="search" placeholder="search" aria-label="Search">
+                <a href=""><i class="fa-solid fa-magnifying-glass mx-2"></i></a>
+              </form>
+            </div>
+        </div>
+      </nav>
+    </header>
+    <!--navbar part ends-->
+
+    <!-- Banner part starts-->
+
+    <section id="part-1">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="slider1">
+            <div class="container py-5 px-5">
+              <h1 class="fs-1">PET CARE</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Cumque doloremque possimus amet aut tempora
+                hic, nobis aliquam sit illo ut!</p>
+              <a href=""><button type="button" class="btn btn-dark px-5 py-2 my-5">Info</button></a>
+            </div>
+          </div>
+          <div class="carousel-item" id="slider2">
+            <div class="container py-5 px-5">
+              <h2 class="fs-1">PET CARE</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae officia veniam assumenda et fugiat nobis
+                unde dignissimos nostrum vero magnam. </p>
+              <a href=""><button type="button" class="btn btn-dark px-5 py-2 my-5">Info</button></a>
+            </div>
+          </div>
+          <div class="carousel-item" id="slider3">
+            <div class="container py-5 px-5">
+              <h3 class="fs-1">PET CARE</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Blanditiis est recusandae sequi velit tempore
+                optio, repellendus doloribus</p>
+              <a href=""><button type="button" class="btn btn-dark px-5 py-2 my-5">Info</button></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Banner part ends-->
+
+    <!--About us part starts-->
+
+    <section id="part-2">
+      <div class="container py-5">
+
+        <div class="row ">
+          <div class="col-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jcjFpE9Z3yc?si=4BqrLONvghQPnh1C"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+          </div>
+          <div class="col-6 py-5">
+
+            <h3 class=" text-secondery my-1 text-end">Welcome</h3>
+
+            <h2 class="text-end"><span>PAWS</span> Veterinary Clinic</h2>
+            <p class="text-end">The traditional role of a health care provider in a community is to provide easy access
+              to quality care. This is our main mission. It is very Important. We are focused on getting an animal and
+              its owner in front of a veterinarian as soon as possible.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About us part ends-->
+
+    <!--services we provide part starts-->
+
+    <section id="part-3" class="py-3">
+
+      <h2 class="text-center pt-5">Services We Provide</h2>
+      <div class="container  py-5">
+        <div class="row">
+          <div class="col-4">
+            <figure><img src="./images/service img2.jpg" alt=""></figure>
+            <h3 class="fst-italic text-center">Emergency Care</h3>
+            <p class="text-center">If you have an emergency during our normal business hours, please give us a call!</p>
+          </div>
+          <div class="col-4 text-center">
+            <figure><img src="./images/service img1.jpg" alt=""></figure>
+            <h3 class="fst-italic text-center">Pet Wellness Service</h3>
+            <p class="text-center">We offer a variety of customized pet wellness plans designed to maintain your pet's
+              good health!</p>
+            <a href=""><button type="button" class="btn btn-dark mt-3">Visit us</button></a>
+           </div>
+          <div class="col-4">
+            <figure><img src="./images/service img3.jpg" alt=""></figure>
+            <h3 class="fst-italic text-center">Surgical Care Services</h3>
+            <p class="text-center">From spaying to soft tissue surgery, we offer a wide range of surgical procedures!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--services we provide ends-->
+
+    <!--Taking care part starts-->
+
+    <section id="part-4">
+       <div class="container">
+        <div class="row my-5">
+          <div class="col-6">
+            <figure><img src="./images/image-50.jpg" class="tcimage" alt=""></figure>
+          </div>
+          <div class="col-6 pt-5 text-end">
+            <p class="  ms-3 fw-bold ">Love Your Pet</p>
+            <h2 class="my-3">Taking Care Of Your Pet</h2>
+            <p class="para mt-4 pb-5">When you choose the veterinarians at Tails Veterinary Clinic to be your pet
+              care partner, you can be assured your pet is receiving the most advanced veterinary care from experienced
+              pet care providers.</p>
+            <a href=""> <button type="button" class="btn btn-dark btn-lg">Book
+                Now</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Taking care part ends-->
+
+    <!--online store starts-->
+
+    <!-- <section id="part-5">
+
+      <div class="container">
+
+        <div class="row my-4 py-4">
+          <div class="col my-5">
+            <h2 class="pt-5">Online Store</h2>
+            <p>Discover our online pet shop and find interesting stuff for pet!</p>
+            <a href=""><button type="button" class="btn btn-primary mx-5">Visit us</button></a>
+          </div>
+
+          <div class="col">
+            <div class="position-relative">
+              <img src="./images/bed image.jpg" class="rounded-3 bedimages" alt="">
+              <h5 class="px-4 my-4 ">Cat Bed</h5>
+              <p class="mx-5 fw-bold ">$67</p>
+            </div>
+            <div>
+              <a href=""><i class="fa-solid fa-link ps-5"></i></a>
+
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div>
+              <img src="./images/towel image.jpg" class="rounded-3 bedimages" alt="">
+              <h5 class="px-3 my-4">cozy cave bed</h5>
+              <p class="mx-5 fw-bold ">$77</p>
+              <div>
+                <a href=""><i class="fa-solid fa-link ps-5"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-3">
+            <div>
+              <img src="./images/sofa image.jpg" class="rounded-3 bedimages" alt="">
+              <h5 class="px-4 my-4">cozy sofa</h5>
+              <p class="px-5 fw-bold ">89$</p>
+            </div>
+            <div>
+              <a href=""><i class="fa-solid fa-link ps-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!--online store ends-->
+
+    <!--our doctors part starts-->
+
+    <section class="part-6">
+      <h2 class="text-center">Our veterinarians</h2>
+      <div class="container">
+        <div class="row my-4">
+          <div class="col shadow">
+           <img src="./images/doctor1-removebg-preview.png" class="docpic" alt="">
+            <h2 class="text-center my-4">Dr.Luke cage</h2>
+            <h6 class="text-center fst-italic text-danger ">Doctor Of veterinary Medicine</h6>
+            <p class="text-center">Dr.cage graduated ECFVG at Oklahoma State University College of Veterinary medicine
+              Sciences.</p>
+            <div class="mx-5 design-overlay">
+              <a href=""><i class="fa-brands fa-facebook ms-5"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter m-5"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col shadow mx-2">
+            <img src="./images/doctor2-removebg-preview.png" class="docpic" alt="">
+            <h2 class="text-center my-4">Dr.Aryan roy</h2>
+            <h6 class="text-center fst-italic text-danger">Doctor Of veterinary Medicine</h6>
+            <p class="text-center">Dr.Roy graduated ECFVG at Oklahoma State University College of Veterinary medicine
+              Sciences.</p>
+            <div class="mx-5 design-overlay">
+              <a href=""><i class="fa-brands fa-facebook ms-5"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter m-5"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col shadow">
+            <img src="./images/doctor3-removebg-preview.png" class="docpic" alt="">
+            <h2 class="text-center my-4 ">Dr.Ram</h2>
+            <h6 class="text-center fst-italic text-danger">Doctor Of veterinary Medicine</h6>
+            <p class="text-center">Dr.Ram graduated ECFVG at Oklahoma State University College of Veterinary medicine
+              Sciences.</p>
+
+            <div class="mx-5 design-overlay">
+              <a href=""><i class="fa-brands fa-facebook ms-5"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter m-5"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--our doctors part ends-->
+
+    <!--Reviews part starts-->
+
+    <!-- <section id="part-9">
+      <h2 class="text-center pt-3 mt-3 ">Customer Reviews</h2>
+      <div class="container">
+        <div class="row my-5">
+
+          <div class="col-3 my-2">
+
+            <div class="card" style="width: 18rem;">
+              <img src="./images/review1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">lorem</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, itaque!
+
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-3 my-2">
+
+            <div class="card" style="width: 18rem;">
+              <img src="./images/review 2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">lorem </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, tempora.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-3 my-2">
+
+            <div class="card" style="width: 18rem;">
+              <img src="./images/review 3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">lorem</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, hic.</p>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-3 my-2">
+
+            <div class="card" style="width: 18rem;">
+              <img src="./images/review 4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">lorem</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, eligendi?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!--Reviews part ends-->
+
+    <!--contact us starts-->
+
+    <section class="part-8">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.9997512110067!2d88.42449270890495!3d22.575741979403862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275eff23edf37%3A0xdc56c0a757ecff53!2sWebskitters%20Academy%20-%20Best%20IT%20Training%20Institute%20in%20Kolkata!5e1!3m2!1sen!2sin!4v1728922381336!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col text-end">
+            <h2 class="text-end pt-3">Contact us</h2>
+            <div>
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+            </div>
+            <div class="my-3">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+            </div>
+            <div>
+              <label for="exampleFormControlTextarea1" class="form-label"></label>
+              <textarea class="form-control" placeholder="your messsege" id="exampleFormControlTextarea1"
+                rows="4"></textarea>
+            </div>
+            <a href=""><button type="button" class="btn mt-5 btn-dark justify-content-center">Submit</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact us starts-->
+
+    <!-- footer part starts-->
+
+    <footer id="part-7">
+      <div class="container py-5">
+        <div class="row pt-5">
+          <div class="col text-white">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="./images/pet_logo-removebg-preview.png" alt="">
+              <h5 class="fst-italic text-black  pe-1">Paws<br>Veterinary clinic</h5>
+            </div>
+            <p class="ps-5">We offer a full array of medical services for dogs and cats. We provide best veterinarians, nurses, and
+              staff.</p>
+            <a href="" class="text-white"><i class="fa-brands fa-facebook ms-5"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-x-twitter m-5"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="col pt-3">
+            <h3 class=" ps-2 text-white">Contacts</h3>
+            <i class="fa-solid fa-phone text-white"> <a href="" class="text-white ps-2">8910007940</a></i>
+            <br>
+            <i class="fa-regular fa-envelope my-3 text-white"><a href="" class="text-white ps-2">info@ws.com</a></i>
+            <br>
+            <i class="fa-solid fa-location-dot text-white"><a href="" class="text-white ps-2">Bengal Eco Park,sector 5 ,kolkata-91</a></i>
+          </div>
+          <div class="col pt-3">
+            <h3 class=" ps-2 text-white">Subscribe Us !</h3>
+            <input type="email" placeholder="Enter your email" class="px-3 py-2">
+            <a href=""><button class="border my-3 px-3 py-2">Subscribe</button></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <!-- footer part ends-->
+  <!--Bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

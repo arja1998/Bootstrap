@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+/* navbar part starts */
+
+img{
+    height: 100px;
+    width: 150px;
+}
+
+.navbar{
+    background-color:#222;
+}
+.navbar-nav {
+    border-radius: 50%;
+    background-color: #222;
+}
+
+.nav-link{
+    color: white!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown-menu{
+    background-color: grey;
+}
+.navbar-nav{
+    width: 100%;
+}
+.fa-magnifying-glass{
+  color: white;
+}
+.nav-link:hover{
+    color: rgb(0, 255, 213)!important;
+    font-weight: bold;
+}
+
+/* navbar part ends */
+
+
+/* slider starts */
+#slider1{
+    background-image: url(../images/slider-11.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#slider2{
+    background-image: url(../images/slider2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#slider3{
+    background-image: url(../images/slider3.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.carousel-item .container p{
+    width: 30%;
+}
+/* slider ends */
+
+/* welcome starts */
+.col-6 h2 span{
+    color: rgb(211, 184, 102);
+}
+/* welcome ends */
+
+
+/* service starts */
+
+.col-4 img{
+    height: 300px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* service starts */
+
+
+.fst-italic{
+    width: 350px;
+}
+.btn-primary{
+    margin-left: 135px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* service ends */
+
+/* taking care starts */
+
+.tcimage{
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.para{
+    color: rgb(189, 114, 23);
+}
+
+/* taking care ends */
+
+/* online store start */
+.bedimages{
+    height: 200px;
+    width: 200px;
+}
+/* online store ends */
+
+/* our doctors part starts */
+
+.docpic{
+    height: 300px;
+    width: 300px;
+}
+
+.design-overlay{
+    opacity: 0;
+}
+.shadow:hover .design-overlay{
+    opacity:1;
+}
+/* our doctors part ends */
+
+/* review part starts */
+
+#part-9{
+    background-color: bisque;
+}
+/* review part endss */
+
+/* footer part starts */
+#part-7{
+    background-color: black;
+}
+
+/* footer part ends */
+
+.btn-dark:hover{
+    background-color: transparent;
+    color: black;
+}
